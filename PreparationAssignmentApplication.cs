@@ -13,7 +13,7 @@ namespace Delegates_n_Tasks
     internal class PreparationAssignmentApplication
     {
         private Utilities Utils = new Utilities();
-        private Random rand = new Random();
+        private Random rand = new Random(); //här skall jag stoppa in seed.
         AsynchronousFileIO FileIOHandler = new AsynchronousFileIO();
 
         public PreparationAssignmentApplication()
